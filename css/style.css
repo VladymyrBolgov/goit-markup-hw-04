@@ -136,9 +136,14 @@ img {
     text-align: center;
     height: 600px;
 
-    background-color: var(--color-background);
+    /*background-color: var(--color-background);*/
+
+    background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/officebackground\ .jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     
-x
 }
 .box-title {
     width: 696px;
