@@ -221,6 +221,32 @@ img {
     clip: rect(0 0 0 0);
 }
 
+ /*сделать отдельный класс для каждого ли под разные иконки*/
+  
+.benefits-item::before{
+    display: block;
+    content: "";
+    height: 120px;
+    margin-bottom: 30px;
+    /*outline: 1px solid red;*/
+    background-size: 70px 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F5F4FA;
+}
+.benefits-item:nth-child(1)::before{
+    background-image: url(../images/Vector1.svg);
+}
+.benefits-item:nth-child(2)::before{
+    background-image: url(../images/Vector2.svg);
+}
+.benefits-item:nth-child(3)::before{
+    background-image: url(../images/Vector3.svg);
+}
+.benefits-item:nth-child(4)::before{
+    background-image: url(../images/Vector4.svg);
+}
+
 /* Чем мы занимаемся----------*/
 
 .directions-title{
