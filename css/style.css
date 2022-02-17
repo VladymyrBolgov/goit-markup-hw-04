@@ -90,6 +90,7 @@ img {
 .contact-list{
    margin-left: auto;
 }
+
 .nav-item a{
     display: block;
     padding-top: 32px;
@@ -124,6 +125,36 @@ img {
 .contact-link:focus {
     color: var(--accent-color);
 }
+/* конвер и телефон не работает*/
+/*.contact-link.envelope::before{
+   content: ""; 
+   width: 16px;
+   height: 12pc;
+   outline: 1px solid red;
+   margin-right: 10px;
+   background-image: url(../images/envelope.svg); 
+   background-size: cover;
+   background-position: center;
+}*/
+.icon-link{
+    width: 16px;
+    height: 12px;
+    fill: currentColor;
+    margin-right: 10px;
+}
+.contact-link.mail,
+.contact-link.phone{
+    display: flex;
+    color: var(--primary-text-color);
+    align-items: center;
+}
+.link.contact-link:focus,
+.link.contact-link::after{
+    color: var(--accent-color);
+    cursor: pointer;
+    fill: currentColor;
+}
+
 
 /*----BOX ------*/
 
@@ -136,7 +167,7 @@ img {
     text-align: center;
     height: 600px;
 
-   
+   /*---Размещение картинки под фоном--*/
     max-width: 1600px;
     background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/officebackground\ .jpg);
@@ -221,19 +252,19 @@ img {
     clip: rect(0 0 0 0);
 }
 
- /*сделать отдельный класс для каждого ли под разные иконки*/
+/* ИКОНКИ размещение. */
   
 .benefits-item::before{
     display: block;
     content: "";
     height: 120px;
     margin-bottom: 30px;
-    /*outline: 1px solid red;*/
     background-size: 70px 70px;
     background-repeat: no-repeat;
     background-position: center;
     background-color: #F5F4FA;
 }
+/* можно задать класс для li и сделать через класс*/
 .benefits-item:nth-child(1)::before{
     background-image: url(../images/Vector1.svg);
 }
@@ -323,6 +354,21 @@ img {
     text-align: center;
     text-transform: none;
     letter-spacing: 0.03em;
+}
+/* Иконки соцсети*/
+.team-social-links::after{
+    display: block;
+    content: "";
+    height: 44px;
+    width: 206px;
+    margin: 16px 32px 30px 32px;
+    background-repeat: no-repeat;
+    background-origin: ;
+    background-size: 20px 20px;
+
+    outline: 1px solid red;
+
+    background-image: url(../images/instagram1.svg);
 }
 
 /*footer*/
@@ -432,6 +478,7 @@ img {
 .projects-list-item{
     margin: 15px;
     flex-basis: calc((100% - 90px) / 3);
+    box-shadow: 10px 10px 10px -5px #EEEEEE;
 }
 .projects-list-title {
     color: var(--title-text-color);
@@ -460,5 +507,6 @@ img {
    border-right: 1px solid #ececec;
    border-bottom: 1px solid #ececec;
    border-left: 1px solid #ececec;
+  
 }
 
