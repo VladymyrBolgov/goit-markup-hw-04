@@ -125,25 +125,16 @@ img {
 .contact-link:focus {
     color: var(--accent-color);
 }
-/* конвер и телефон не работает*/
-/*.contact-link.envelope::before{
-   content: ""; 
-   width: 16px;
-   height: 12pc;
-   outline: 1px solid red;
-   margin-right: 10px;
-   background-image: url(../images/envelope.svg); 
-   background-size: cover;
-   background-position: center;
-}*/
+
 .icon-link{
     width: 16px;
     height: 12px;
     fill: currentColor;
     margin-right: 10px;
+    color: var(--accent-color);
 }
 .contact-link.mail,
-.contact-link.phone{
+.contact-link.phone {
     display: flex;
     color: var(--primary-text-color);
     align-items: center;
@@ -266,16 +257,16 @@ img {
 }
 /* можно задать класс для li и сделать через класс*/
 .benefits-item:nth-child(1)::before{
-    background-image: url(../images/Vector1.svg);
+    background-image: url(../images/icon/antenna.svg);
 }
 .benefits-item:nth-child(2)::before{
-    background-image: url(../images/Vector2.svg);
+    background-image: url(../images/icon/clock.svg);
 }
 .benefits-item:nth-child(3)::before{
-    background-image: url(../images/Vector3.svg);
+    background-image: url(../images/icon/diagram.svg);
 }
 .benefits-item:nth-child(4)::before{
-    background-image: url(../images/Vector4.svg);
+    background-image: url(../images/icon/astronaut.svg);
 }
 
 /* Чем мы занимаемся----------*/
@@ -475,6 +466,7 @@ img {
     margin: -15px;
     
 }
+/*Тени*/
 .projects-list-item{
     margin: 15px;
     flex-basis: calc((100% - 90px) / 3);
