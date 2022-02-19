@@ -361,25 +361,23 @@ img {
     height: 44px;
     border-radius: 50%;
     margin-top: 16px;
-   padding: 0;
-   margin: 0;
-   border: none;
+    padding: 0;
+    margin: 0;
+    border: none;
     background-color: #FFFFFF; 
 }
-/*.social-team-item+.social-team-item{
+.social-team-item+.social-team-item{
     margin-left: 9px;
-}*/
+}
 .social-team-icon{
     background-color: #FFFFFF;
     border-radius: 50%;
     fill: currentColor;
-
 }
 .social-team-links:hover .social-team-icon,
 .social-team-links:focus  .social-team-icon{  
    color: #FFFFFF;
    background-color: var(--color-box-button);
-   
 }
 
 
