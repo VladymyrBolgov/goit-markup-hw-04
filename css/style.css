@@ -349,9 +349,17 @@ img {
     letter-spacing: 0.03em;
 }
 /* Иконки соцсети*/
+
 .social-team{
     display: flex;
     justify-content: center;
+}
+.social-team-item{
+    color: #AFB1B8;
+    margin-top: 16px;
+}
+.social-team-item+.social-team-item{
+    margin-left: 9px;
 }
 .social-team-links{
     display: flex;
@@ -359,24 +367,18 @@ img {
     justify-content: center; 
     width: 44px;
     height: 44px;
-    margin-top: 16px;
-    padding: 0;
-    margin: 0;
-    border: none;
-    background-color: #FFFFFF; 
     border-radius: 50%;
-}
-
-.social-team-item+.social-team-item{
-    margin-left: 9px;
-}
-.social-team-icon{
-    fill: currentColor;
 }
 .social-team-links:hover,
 .social-team-links:focus  {  
    background-color: var(--color-box-button);
 }
+/*.social-team-icon{
+    fill: currentColor;
+}*/
+/*.social-team-links:hover{
+    fill: #FFFFFF;
+}*/
 
 /*footer*/
 
