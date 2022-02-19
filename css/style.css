@@ -359,7 +359,6 @@ img {
     justify-content: center; 
     width: 44px;
     height: 44px;
-    border-radius: 50%;
     margin-top: 16px;
     padding: 0;
     margin: 0;
@@ -372,6 +371,7 @@ img {
 .social-team-icon{
     background-color: #FFFFFF;
     border-radius: 50%;
+ 
     fill: currentColor;
 }
 .social-team-links:hover .social-team-icon,
@@ -490,6 +490,9 @@ img {
 .projects-list-item{
     margin: 15px;
     flex-basis: calc((100% - 90px) / 3);
+   
+}
+.projects-list-item:hover{
     box-shadow: 10px 10px 10px -5px #EEEEEE;
 }
 .projects-list-title {
