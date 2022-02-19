@@ -32,7 +32,7 @@ p {
 }
 body {
     font-family: roboto, sans-serif;
-    min-width: 1200px
+    min-width: 1200px;
 }
 
 ul {
@@ -131,13 +131,17 @@ img {
     height: 12px;
     fill: currentColor;
     margin-right: 10px;
-    color: var(--accent-color);
+   /* color: var(--accent-color);*/
 }
 .contact-link.mail,
 .contact-link.phone {
     display: flex;
     color: var(--primary-text-color);
     align-items: center;
+}
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--accent-color); 
 }
 .link.contact-link:focus,
 .link.contact-link::after{
@@ -154,10 +158,8 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
     text-align: center;
     height: 600px;
-
    /*---Размещение картинки под фоном--*/
     max-width: 1600px;
     background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
@@ -255,7 +257,7 @@ img {
     background-position: center;
     background-color: #F5F4FA;
 }
-/* можно задать класс для li и сделать через класс*/
+
 .benefits-item:nth-child(1)::before{
     background-image: url(../images/icon/antenna.svg);
 }
@@ -347,20 +349,40 @@ img {
     letter-spacing: 0.03em;
 }
 /* Иконки соцсети*/
-.team-social-links::after{
-    display: block;
-    content: "";
-    height: 44px;
-    width: 206px;
-    margin: 16px 32px 30px 32px;
-    background-repeat: no-repeat;
-    background-origin: ;
-    background-size: 20px 20px;
-
-    outline: 1px solid red;
-
-    background-image: url(../images/instagram1.svg);
+.social-team{
+    display: flex;
+    justify-content: center;
 }
+.social-team-links{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    margin-top: 16px;
+   padding: 0;
+   margin: 0;
+   border: none;
+    background-color: #FFFFFF; 
+}
+/*.social-team-item+.social-team-item{
+    margin-left: 9px;
+}*/
+.social-team-icon{
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    fill: currentColor;
+
+}
+.social-team-links:hover .social-team-icon,
+.social-team-links:focus  .social-team-icon{  
+   color: #FFFFFF;
+   background-color: var(--color-box-button);
+   
+}
+
+
 
 /*footer*/
 
