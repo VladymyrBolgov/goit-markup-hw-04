@@ -355,7 +355,6 @@ img {
     justify-content: center;
 }
 .social-team-item{
-    color: #AFB1B8;
     margin-top: 16px;
 }
 .social-team-item+.social-team-item{
@@ -368,17 +367,16 @@ img {
     width: 44px;
     height: 44px;
     border-radius: 50%;
+    color: #AFB1B8; 
+}
+.social-team-icon{
+    fill: currentColor;
 }
 .social-team-links:hover,
 .social-team-links:focus  {  
    background-color: var(--color-box-button);
+   color: #FFFFFF;;
 }
-/*.social-team-icon{
-    fill: currentColor;
-}*/
-/*.social-team-links:hover{
-    fill: #FFFFFF;
-}*/
 
 /*footer*/
 
