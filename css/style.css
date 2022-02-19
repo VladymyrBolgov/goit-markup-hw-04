@@ -364,23 +364,19 @@ img {
     margin: 0;
     border: none;
     background-color: #FFFFFF; 
+    border-radius: 50%;
 }
+
 .social-team-item+.social-team-item{
     margin-left: 9px;
 }
 .social-team-icon{
-    background-color: #FFFFFF;
-    border-radius: 50%;
- 
     fill: currentColor;
 }
-.social-team-links:hover .social-team-icon,
-.social-team-links:focus  .social-team-icon{  
-   color: #FFFFFF;
+.social-team-links:hover,
+.social-team-links:focus  {  
    background-color: var(--color-box-button);
 }
-
-
 
 /*footer*/
 
