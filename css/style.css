@@ -364,7 +364,6 @@ img {
     height: 44px;
     background-color: transparent;
     border-radius: 50%;
-    
 }
 .social-team-links:hover,
 .social-team-links:focus{
@@ -488,6 +487,32 @@ img {
     text-transform: none;
     letter-spacing: 0.03em;
 }
+/* ФУТЕР СОЦИАЛЬНЫЕ СЕТИ */
+
+.footer-title{
+    color: var(--primary-color-white);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+.footer-social-list{
+    width: 206px;
+    height: 80px;
+}
+.footer-social-item{
+    display: flex;
+}
+.footer-social-link{
+    display: flex;
+}
+.footer-container{
+    display: flex;
+}
+
 
 
 
