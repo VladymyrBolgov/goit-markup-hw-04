@@ -580,8 +580,10 @@ img {
     flex-basis: calc((100% - 90px) / 3);
    
 }
-.projects-list-item:hover{
-    box-shadow: 1px 4px 6px 0 #000000, 0 4px 4px 0 #000000;
+.projects-link:hover{
+    display: block;
+    box-shadow: 1px 4px 6px 0 #000000, 
+    0 4px 4px 0 #000000;
 }
 .projects-list-title {
     color: var(--title-text-color);
