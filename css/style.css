@@ -501,7 +501,8 @@ img {
 }
 
 .footer-social{
-    display: flex;
+    display: flex; 
+  justify-content: center; 
 }
 .footer-social-link{
     display: flex;
@@ -511,7 +512,8 @@ img {
 }
 .footer-social-list{
    align-items: baseline;
-
+   margin-left: 70px;
+  
 }
 
 
