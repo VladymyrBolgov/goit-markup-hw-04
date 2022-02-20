@@ -541,8 +541,7 @@ img {
     padding: 6px 22px;
     
     transition-property: background-color;
-    transition-duration: 1s;
-    transition-delay: 0s, 1s;
+  
 
     font-family: Roboto,sans-serif;
     color: var(--title-text-color);
