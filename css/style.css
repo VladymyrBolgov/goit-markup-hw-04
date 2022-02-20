@@ -519,6 +519,9 @@ img {
 .footer-container{
     display: flex;
 }
+.footer-title{
+    display: flex;
+}
 .footer-social-item+.footer-social-item{
     margin-left: 10px;
 }
@@ -535,6 +538,7 @@ img {
 .footer-social-link:focus{
     background-color: var(--accent-color);
 }
+
 
 
 
