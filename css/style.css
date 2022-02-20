@@ -519,7 +519,7 @@ img {
 .footer-container{
     display: flex;
 }
-.footer-social-link+.footer-social-link{
+.footer-social-item+.footer-social-item{
     margin-left: 10px;
 }
 .footer-social-list{
