@@ -454,7 +454,7 @@ img {
     flex-direction: column;
 } 
 .address-item+.address-item{
-    margin-top: 9px;
+    margin-top: 10px;
 }
 .footer-logo {
     color: var(--accent-color);
@@ -503,7 +503,8 @@ img {
     width: 206px;
     height: 80px;
 }
-.footer-social-item{
+
+.footer-social{
     display: flex;
 }
 .footer-social-link{
