@@ -348,8 +348,35 @@ img {
     letter-spacing: 0.03em;
 }
 /* Иконки соцсети*/
-
 .social-team{
+  display: flex; 
+  justify-content: center; 
+}
+.social-team-icon{
+    fill:  #AFB1B8;
+}
+.social-team-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background-color: transparent;
+    border-radius: 50%;
+    margin-top: 16px;
+}
+.social-team-links:hover,
+.social-team-links:focus{
+    background-color: var(--color-box-button);
+}
+.social-team-links:hover .social-team-icon,
+.social-team-links:focus .social-team-icon{
+    fill: var( --primary-color-white);
+}
+.social-team-item+.social-team-item{
+    margin-left: 10px;
+}
+/*.social-team{    второй вариант
     display: flex;
     justify-content: center;
 }
@@ -375,7 +402,7 @@ img {
 .social-team-links:focus  {  
    background-color: var(--color-box-button);
    color: #FFFFFF;
-}
+}*/
 
 /*Постоянные клиентые*/
 
