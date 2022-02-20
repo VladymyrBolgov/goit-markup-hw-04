@@ -372,7 +372,7 @@ img {
 }
 .social-team-links:hover .social-team-icon,
 .social-team-links:focus .social-team-icon{
-    fill: var( --primary-color-white);
+    fill: var(--primary-color-white);
 }
 .social-team-item+.social-team-item{
     margin-left: 10px;
@@ -402,7 +402,7 @@ img {
 .social-team-links:hover,
 .social-team-links:focus  {  
    background-color: var(--color-box-button);
-   color: #FFFFFF;
+   color: var(--primary-color-white);
 }*/
 
 /*Постоянные клиентые*/
@@ -514,18 +514,27 @@ img {
     height: 44px;
     background-color: transparent;
     border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 .footer-container{
     display: flex;
 }
+.footer-social-link+.footer-social-link{
+    margin-left: 10px;
+}
 .footer-social-list{
-    align-items: baseline;
     margin-left: 70px;
 }
 .footer-container{
     align-items: baseline;
 } 
-
+.footer-social-icon{
+    fill: var(--primary-color-white);
+}
+.footer-social-link:hover,
+.footer-social-link:focus{
+    background-color: var(--accent-color);
+}
 
 
 
