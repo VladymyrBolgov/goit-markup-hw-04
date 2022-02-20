@@ -351,6 +351,7 @@ img {
 .social-team{
   display: flex; 
   justify-content: center; 
+  margin-top: 16px;
 }
 .social-team-icon{
     fill:  #AFB1B8;
@@ -363,7 +364,7 @@ img {
     height: 44px;
     background-color: transparent;
     border-radius: 50%;
-    margin-top: 16px;
+    
 }
 .social-team-links:hover,
 .social-team-links:focus{
@@ -406,10 +407,6 @@ img {
 
 /*Постоянные клиентые*/
 
-.clients-list{
-    display: flex;
-    margin-top: 50px;
-}
 .clients-title{
     color: var(--title-text-color);
     font-weight: 700;
@@ -419,30 +416,30 @@ img {
     text-transform: none;
     letter-spacing: 0.03em;
 }
+.clients-list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
 .clients-item{
     width: 170px;
     height: 92px;
     border: 1px  solid #AFB1B8;
     cursor: pointer;
 }
-.clients-item+.clients-item{
-    margin-left: 30px;
-}
-.clients-link{
-    color: #AFB1B8;
-}
 .clients-team-icon{
-   margin: 16px 32px;
-   fill: currentColor;
-}
-.clients-link:hover,
-.clients-link:focus{
-    color: var(--color-box-button);
-}
-.clients-item:hover,
-.clients-item:focus{
- border-color: var(--color-box-button);
-}
+    margin: 16px 32px;
+    fill: currentColor;
+    fill:  #AFB1B8;
+ }
+ .clients-item:hover,
+ .clients-item:focus{
+  border-color: var(--color-box-button);
+ }
+ .clients-item:hover .clients-team-icon,
+ .clients-item:focus .clients-team-icon{
+   fill: var(--color-box-button);
+ }
 
 /*footer*/
 
