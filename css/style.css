@@ -125,7 +125,7 @@ img {
 .contact-link:focus {
     color: var(--accent-color);
 }
-
+/* Иконки*/
 .icon-link{
     width: 16px;
     height: 12px;
@@ -136,8 +136,8 @@ img {
 .contact-link.mail,
 .contact-link.phone {
     display: flex;
-    color: var(--primary-text-color);
     align-items: center;
+    color: var(--primary-text-color);
 }
 .contact-link:hover,
 .contact-link:focus {
@@ -253,7 +253,6 @@ img {
 .benefits-icon{
  margin: 25px 100px;
 }
-
 .benefits-icon-item{
     width: 270px;
     height: 120px;
