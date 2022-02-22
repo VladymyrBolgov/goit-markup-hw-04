@@ -252,14 +252,14 @@ img {
 
 /* ИКОНКИ размещение. */
 
-.benefits-icon{
- margin: 25px 100px;
-}
-.benefits-icon-item{
+.benefits-link{
     width: 270px;
     height: 120px;
     background-color: #F5F4FA;
     margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
   /* Второй вариант через :before*/
 /*.benefits-item::before{
