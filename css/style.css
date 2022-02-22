@@ -154,6 +154,8 @@ img {
 /*----BOX ------*/
 
 .box {
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -592,6 +594,10 @@ img {
     text-transform: none;
     font-family: inherit;
     border: transparent;
+
+   /* transition-property: background-color;
+    transition-duration: 1s;
+    transition-delay: 0s, 1s;*/
 }
 .filter-button:hover,
 .filter-button:focus {
